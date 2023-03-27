@@ -9,10 +9,10 @@ The code in this repository refers to the paper published on "The Lancet Digital
 
 ### Testing the model
 
-#### This is not for clinical use ####
+#### NOTE: This is not for clinical use ####
 
 1. Clone this repository
-2. Register on [x-raydar](https://www.x-raydar.info/) official webpage
+2. Register on [x-raydar](https://www.x-raydar.info/) official webpage and accept our terms and conditions
 3. Download the network weights and add them in \src\model_20210820_XNet38MS\model_weights
 4. Use the DICOM in \demo_data to test the model
 
