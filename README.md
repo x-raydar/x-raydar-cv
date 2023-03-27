@@ -13,8 +13,8 @@ The code in this repository refers to the paper published on "The Lancet Digital
 
 1. Clone this repository
 2. Register on [x-raydar](https://www.x-raydar.info/) official webpage
-3. Download the network weights
-4. Use the DICOM in /demo_data/ to test the model
+3. Download the network weights and add them in \src\model_20210820_XNet38MS\model_weights
+4. Use the DICOM in \demo_data to test the model
 
 
 
