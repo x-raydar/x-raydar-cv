@@ -23,7 +23,19 @@ In order to download the pretrained network weights you will need to first regis
   https://www.x-raydar.info/
 ``` 
 and accept our terms and conditions. 
- 
+
+## Code Example
+
+``` python
+model = predict.build_model()
+
+filename = '../demo_data/04f72062c19d9cd7a55519708aa2cc58b5e52b52' # test DICOM
+
+dicom = pydicom.read_file(filename)
+image_original = dicom_utils.img_clean(dicom)
+predict.main(image_original, model)
+```
+
 
 ## Authors
 - [@wmgdatascience](https://github.com/wmgdatascience)
