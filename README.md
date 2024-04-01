@@ -37,6 +37,7 @@ predict.main(image_original, model)
 ```
 
 
-## Authors
-- [@wmgdatascience](https://github.com/wmgdatascience)
-- [@granmirupa](https://www.github.com/granmirupa)
+# Contact
+
+For questions, suggestions, or collaborations, please contact Giovanni Montana at g.montana@warwick.ac.uk.
+
